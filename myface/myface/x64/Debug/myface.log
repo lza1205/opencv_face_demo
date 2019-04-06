@@ -1,0 +1,34 @@
+﻿  myface.cpp
+myface.cpp(211): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+myface.cpp(212): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: “cv::cuda::GpuMat::GpuMat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\cuda.inl.hpp(395): warning C4793: “cv::cuda::HostMem::HostMem”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\mat.inl.hpp(561): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\mat.inl.hpp(885): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\mat.inl.hpp(2221): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\mat.inl.hpp(3821): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\code\opencv\opencv3.4.4\opencv\build\include\opencv2\core\cvstd.hpp(657): warning C4793: “cv::String::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+  AssemblyInfo.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+mace.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+lbph_faces.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+face_basic.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+facerec.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+facemarkLBF.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+facemarkAAM.obj : warning LNK4248: 无法解析 typeref 标记(01000014)(为“CvFileStorage”)；映像可能无法运行
+  myface.vcxproj -> E:\code\opencv\myface\myface\x64\Debug\myface.exe
+  myface.vcxproj -> E:\code\opencv\myface\myface\x64\Debug\myface.pdb (Partial PDB)
